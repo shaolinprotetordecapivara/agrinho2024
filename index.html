@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="style.css" />
+<title>Feira do produtor - Turvo. Faça seus pedidos!</title>
+</head>
+<body>
+  <div class="index">
+
+  
+<header>
+
+
+    
+          <ul class="links">
+            <li><a href="https://forms.gle/oC7qZFLbnVaH73K9A" class="action_btn">Pães e massas</a></li>
+            <li><a href="https://forms.gle/mB6PxSjC1SeyjTSf6" class="action_btn">Doces</a></li>
+            <li><a href="https://forms.gle/t4pJ2oH82H1S8B3p8" class="action_btn">Queijos e laticínios</a></li>
+            <li><a href="https://forms.gle/GK9NuBpiPR3b9JgJ6" class="action_btn">Verduras</a></li>
+            <li><a href="https://forms.gle/PTeboxVQo5E3Mkcm9" class="action_btn">Decorações e artesanatos</a></li>
+          </ul>
+    
+    <p>Toda quarta-feira, em frente ao salão da igreja Nossa Senhora de Aparecida, Centro.</p> <p> Traga seu lixo reciclável e troque por vale compras na feira do produtor!</p>
+  
+</header>
+<main>
+  <section id="imagem">
+    <h1></h1>
+    <img src="center.png">
+    <p><br /> </p>
+  </section>
+</main>
+
+</div>
+<script>
+  const toggleBtn = document.querySelector('.toggle_btn');
+  const toggleBtnIcon = document.querySelector('.toggle_btn i');
+  const dropdownMenu = document.querySelector('.dropdown_menu');
+
+  toggleBtn.onclick = function (
+
+  ) {
+    dropdownMenu.classList.toggle('open');
+    const isOpen = dropdownMenu.classList.contains('open');
+    toggleBtnIcon.classList = isOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars';
+  };
+</script>
+
+</body>
+</html>
+
+  
